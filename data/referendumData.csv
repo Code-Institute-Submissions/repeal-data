@@ -1,0 +1,81 @@
+region,constituency,voteType,voteCount,electoralRegCount
+south,carlow-kilkenny,yes,44211,112304.84
+midlands-north-west,cavan-monaghan,yes,32115,91331.23
+south,clare,yes,34328,82930.12
+south,cork-east,yes,34941,85409.09
+south,cork north-central,yes,33639,84209.94
+south,cork north-west,yes,27194,68661.61
+south,cork south-central,yes,40071,87269.87
+south,cork south-west,yes,26147,60228.83
+midlands-north-west,donegal,yes,32559,118476.36
+dublin,dublin bay-north,yes,57754,107998.60
+dublin,dublin bay-south,yes,33919,78703.09
+dublin,dublin central,yes,18863,47869.90
+dublin,dublin fingal,yes,51840,95686.07
+dublin,dublin mid-west,yes,35192,71367.01
+dublin,dublin north-west,yes,28447,62000.00
+dublin,dublin rathdown,yes,34529,64727.53
+dublin,dublin south-central,yes,34201,76729.86
+dublin,dublin south-west,yes,54642,106330.90
+dublin,dublin west,yes,33595,66945.42
+dublin,dun laoghaire,yes,50243,95176.64
+midlands-north-west,galway east,yes,26525,69403.15
+midlands-north-west,galway west,yes,42422,107392.32
+south,kerry,yes,40285,110794.87
+midlands-north-west,kildare north,yes,40058,85355.80
+midlands-north-west,kildare south,yes,27307,63044.05
+midlands-north-west,laois,yes,24232,63703.23
+south,limerick city,yes,32169,76976.00
+south,limerick county,yes,24448,67347.20
+midlands-north-west,longford westmeath,yes,30876,89357.50
+midlands-north-west,louth ,yes,46429,105860.40
+midlands-north-west,mayo,yes,32287,91101.45
+midlands-north-west,meath-east,yes,30686,67588.42
+midlands-north-west,meath-west,yes,26343,65489.67
+midlands-north-west,offaly,yes,24781,65979.90
+midlands-north-west,roscommon-galway,yes,23677,62992.39
+midlands-north-west,sligo-leitrim,yes,34685,95605.57
+south,tipperary,yes,42731,113239.81
+south,waterford,yes,37016,82911.35
+south,wexford,yes,49935,110111.61
+south,wicklow,yes,54629,98738.26
+south,carlow-kilkenny,no,25418,0
+midlands-north-west,cavan-monaghan,no,25789,0
+south,clare,no,19079,0
+south,cork-east,no,19550,0
+south,cork north-central,no,18908,0
+south,cork north-west,no,18054,0
+south,cork south-central,no,18138,0
+south,cork south-west,no,14387,0
+midlands-north-west,donegal,no,35091,0
+dublin,dublin bay-north,no,19573,0
+dublin,dublin bay-south,no,9289,0
+dublin,dublin central,no,5790,0
+dublin,dublin fingal,no,15523,0
+dublin,dublin mid-west,no,12838,0
+dublin,dublin north-west,no,10489,0
+dublin,dublin rathdown,no,10845,0
+dublin,dublin south-central,no,11530,0
+dublin,dublin south-west,no,18301,0
+dublin,dublin west,no,11794,0
+dublin,dun laoghaire,no,14953,0
+midlands-north-west,galway east,no,17546,0
+midlands-north-west,galway west,no,21906,0
+south,kerry,no,28851,0
+midlands-north-west,kildare north,no,14399,0
+midlands-north-west,kildare south,no,11339,0
+midlands-north-west,laois,no,15264,0
+south,limerick city,no,15941,0
+south,limerick county,no,17644,0
+midlands-north-west,longford westmeath,no,22113,0
+midlands-north-west,louth ,no,23333,0
+midlands-north-west,mayo,no,24287,0
+midlands-north-west,meath-east,no,13652,0
+midlands-north-west,meath-west,no,14850,0
+midlands-north-west,offaly,no,17908,0
+midlands-north-west,roscommon-galway,no,17709,0
+midlands-north-west,sligo-leitrim,no,23730,0
+south,tipperary,no,29516,0
+south,waterford,no,16296,0
+south,wexford,no,23069,0
+south,wicklow,no,18931,0

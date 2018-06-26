@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gender in Academia</title>
+
+    <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="static/css/dc.min.css" type="text/css" />
+    <link rel="stylesheet" href="static/css/style.css" type="text/css" />
+
+    <script type="text/javascript" src="static/js/d3.min.js"></script>
+    <script type="text/javascript" src="static/js/crossfilter.min.js"></script>
+    <script type="text/javascript" src="static/js/dc.min.js"></script>
+    <script type="text/javascript" src="static/js/queue.min.js"></script>
+    <script type="text/javascript" src="static/js/graph.js"></script>
+    <script type="text/javascript" src="static/js/script.js"></script>
+
+
+
+</head>
+
+<body>
+    <!--header-->
+    <header class="container-fluid header-text bg-header">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-xs-6 col-md-6 col-lg-6 col-xl-6">
+                        <h1>Charting Change</h1>
+                        <h3>'Repeal the 8th' Referendum 2018</h3>
+                    </div>
+                    <div class="col-xs-6 col-md-6 col-lg-6 col-xl-6">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--start Charts---------------------------------------------------------->
+    <section class="container-fluid bg-image">
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <h4>Ireland's Vote</h4>
+                        <p>The question of whether to repeal the 8th amendment or to maintain the 8th amendment to the Irish constitution came to a head on May 26th 2018 with a landslide majority vote for the<strong> yes side.</strong></p>
+                    </div>
+                    <!--onlick event constituency checker------------------------------------->
+                    <div class="col-6">
+                        <div class="dropdown">
+                            <button onclick="dropdownFunction()" class="dropbtn">Check how your constituency voted</button>
+                            <div id="constituency_checker" class="dropdown-content">
+                                <input type="text" placeholder="search.." id="constituency_search" onkeyup="filterFunction()">
+                                <ul>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#base">Base</a></li>
+                                    <li><a href="#blog">Blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--data line2 interactive pie chart [x2] & bar chart [x1]---------------->
+        <div class="row justify-content-center">
+            <div id="national_count" class="col-sm-12 col-md-5 col-lg-5 col-xl-5"></div>
+            <div id="regional-count" class="col-sm-12 col-md-5 col-lg-5 col-xl-5"></div>
+        </div>
+        <div class="row justify-content-center">
+            <div id="stacked_chart" class="col-sm-12 col-md-10 col-lg-10 col-xl-10"></div>
+        </div>
+
+
+        <!--data line3 constCharts-->
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div id="turnout_line_chart" class="col-8">
+
+                    </div>
+                    <div class="col-4">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--data line4 quickCounts-->
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-4">
+
+                    </div>
+                    <div class="col-4">
+
+                    </div>
+                    <div class="col-4">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
