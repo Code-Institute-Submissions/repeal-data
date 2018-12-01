@@ -1,16 +1,21 @@
 .bg-header {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2)), url("/static/media/headerGeometric2.jpg");
+    height: 50vh;
+
+    background: linear-gradient( rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)), url("/static/media/headerGeometric2.jpg") no-repeat center center fixed;
     opacity: 0.3;
-    width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    overflow: hidden;
+
+    display: flex;
+    align-items: center;
 }
 
-.header-text, h1, h3 {
+.header-text,
+h1,
+h3 {
     color: white;
     text-shadow: 2px 2px 5px black;
 }
@@ -25,10 +30,35 @@ h3 {
     padding-left: 70px;
 }
 
-/*--------------------------------------charts*/
+.header-box {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom-color: black;
+    width: 100%;
+}
 
+/*--------------------------------------checker*/
 
-/*--------------------------------------trying dropdown menu*/
+.checker-box {
+    padding: 50px 10px 10px 10px;
+    border-style: groove;
+    margin: 20px 20px 20px 20px;
+    background-color: rgba(240,248,255, 0.3);
+}
+
+.checker-function {
+    align-self: center;
+}
+
+/*--------------------------------------interactive charts*/
+
+.interactive-charts-section {
+    padding: 50px 10px 10px 10px;
+    border-style: groove;
+    margin: 20px 20px 20px 20px;
+    background-color: rgba(240, 255, 255, 0.3);
+}
+
+/*--------------------------------------dropdown menu*/
 
 .dropbtn {
     background-color: #4CAF50;
@@ -39,7 +69,8 @@ h3 {
     cursor: pointer;
 }
 
-.dropbtn:hover, .dropbtn:focus {
+.dropbtn:hover,
+.dropbtn:focus {
     background-color: #3e8e41;
 }
 
@@ -54,7 +85,9 @@ h3 {
     border-bottom: 1px solid #ddd;
 }
 
-#constituency_search:focus {outline: 3px solid #ddd;}
+#constituency_search:focus {
+    outline: 3px solid #ddd;
+}
 
 .dropdown {
     position: relative;
@@ -78,8 +111,12 @@ h3 {
     display: block;
 }
 
-.dropdown a:hover {background-color: #ddd}
+.dropdown a:hover {
+    background-color: #ddd
+}
 
-.show {display:block;}
+.show {
+    display: block;
+}
 
-/*--------------------------------------bar chart*/
+/*--------------------------------------interactive charts*/
