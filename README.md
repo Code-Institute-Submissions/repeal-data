@@ -35,19 +35,19 @@ Manual Testing:
 This project has been tested manually by interacting with the dataset, and comparting results with the data file.
 
 Example scenarios of manual testing: 
+
     1) Yes / No pie chart 
     simple test to check dynamic information is correct and accessible: 
         i) click on 'yes' to turn it off
         ii) view related results in region chart which shows that the smallest 'no' tally proportionately came from Dublin
         iii) view related results in constituency pie chart shows that the highest no tally came from Donegal, which by comparing data, we know to be true. 
-    
+  
     2) Region pie chart
     test the highest yes vote came from Dublin Bay North is true:
         i) Within the yes/no pie chart click on 'yes' to turn yes counts off
         ii) At region pie chart, turn two region segments off by clicking leaving only Dublin results
         ii) View the bar chart, and see that Dublin Bay North registers the highest tally.
-        
-    **BUG: However, we can see here that the total registered is also being displayed in the yes count. This is to do with the way I wrote the data file and not with the rendering process. Infact, creating the csv file so that it would be usable in a dynamic way was one of the more challenging aspects of this project for me. The yes vote in the csv file contains the electoral reg count value, while the no votes contain '0' in that field. This the reason for this issue. There is a fundamental flaw in the data structure.  
+
     
     3) Constituency Bar Chart
     test the comparitive accuracy of the constiuency fields
@@ -55,6 +55,8 @@ Example scenarios of manual testing:
         ii) at the bar chart level select Donegal and Dublin Bay North
         iii) observe that both bars display results as expected
 
+ **BUG: Test 2: Region pie chart. We can see here that the total registered is also being displayed in the yes count. This is to do with the way I wrote the data file and not with the rendering process. Infact, creating the csv file so that it would be usable in a dynamic way was one of the more challenging aspects of this project for me. The yes vote in the csv file contains the electoral reg count value, while the no votes contain '0' in that field. This the reason for this issue. There is a fundamental flaw in the data structure.  
+ 
 # other issues when testing
 The bar chart lacks responsivity on small devices. The screen can be rotated or scrolled to view it. However, the design implementation is not ideal for this purpose. 
 
