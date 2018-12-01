@@ -75,8 +75,8 @@ function show_constituency_vote(ndx) {
             return 0;
         }
     });
-    
-    var total_reg = constituency_list.group().reduceSum(function(d){
+
+    var total_reg = constituency_list.group().reduceSum(function(d) {
         if (d.electoralRegCount >= 1) {
             return +d.electoralRegCount;
         }
@@ -111,5 +111,4 @@ function show_constituency_vote(ndx) {
 }
 
 //---------------------------------------------------turnout line chart
-
 

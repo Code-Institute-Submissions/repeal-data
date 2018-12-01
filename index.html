@@ -25,7 +25,7 @@
 <body>
     <!--header-->
     <header class="container-fluid header-text bg-header">
-        <div class="row">
+        <div class="row header-box">
             <div class="col-lg-12">
                 <div class="row">
                     <div class="col-xs-6 col-md-6 col-lg-6 col-xl-6">
@@ -41,41 +41,35 @@
     </header>
 
     <!--start Charts---------------------------------------------------------->
-    <section class="container-fluid bg-image">
-        <div class="row">
+    <section class="container-fluid center">
+        <div class="row checker-box">
             <div class="col-12">
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                         <h4>Ireland's Vote</h4>
                         <p>The question of whether to repeal the 8th amendment or to maintain the 8th amendment to the Irish constitution came to a head on May 26th 2018 with a landslide majority vote for the<strong> yes side.</strong></p>
                     </div>
-                    <!--onlick event constituency checker------------------------------------->
-                    <div class="col-6">
-                        <div class="dropdown">
-                            <button onclick="dropdownFunction()" class="dropbtn">Check how your constituency voted</button>
-                            <div id="constituency_checker" class="dropdown-content">
-                                <input type="text" placeholder="search.." id="constituency_search" onkeyup="filterFunction()">
-                                <ul>
-                                    <li><a href="#about">About</a></li>
-                                    <li><a href="#base">Base</a></li>
-                                    <li><a href="#blog">Blog</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
-
+        <div class="row checker-box">
+            <div class="col-12">
+                <div class="row justify-content-center">
+                    <div id="national_count" class="col-sm-12 col-md-5 col-lg-5 col-xl-5"></div>
+                    <div id="regional-count" class="col-sm-12 col-md-5 col-lg-5 col-xl-5"></div>
+                </div>
+            </div>
+        </div>
         <!--data line2 interactive pie chart [x2] & bar chart [x1]---------------->
-        <div class="row justify-content-center">
-            <div id="national_count" class="col-sm-12 col-md-5 col-lg-5 col-xl-5"></div>
-            <div id="regional-count" class="col-sm-12 col-md-5 col-lg-5 col-xl-5"></div>
+        <div class="interactive-charts-section">
+            <div class="row justify-content-center">
+                <div id="national_count" class="col-sm-12 col-md-5 col-lg-5 col-xl-5"></div>
+                <div id="regional-count" class="col-sm-12 col-md-5 col-lg-5 col-xl-5"></div>
+            </div>
+            <div class="row justify-content-center">
+                <div id="stacked_chart" class="col-sm-12 col-md-10 col-lg-10 col-xl-10"></div>
+            </div>
         </div>
-        <div class="row justify-content-center">
-            <div id="stacked_chart" class="col-sm-12 col-md-10 col-lg-10 col-xl-10"></div>
-        </div>
-
 
         <!--data line3 constCharts-->
         <div class="row">
