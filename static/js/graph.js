@@ -110,5 +110,4 @@ function show_constituency_vote(ndx) {
 
 }
 
-//---------------------------------------------------turnout line chart
 
