@@ -4,7 +4,8 @@ This project is created as part of CI Dublin's course in Software Dev. It is the
 In this project I create a data dashboard that visualizes a notable referendum Ireland held in May this year to decide whether or not to remove the 8th amendment regarding abortion rights, from the Irish constitution. The result of this election was particularly interesting in terms of how it reflects modern day Ireland, and therefore I felt a set of charts would be worthwhile. 
 
 # UX
-This data dashboard is largely aimed at the general public, and not at statistic offices nor is it intended for official purposes. Instead, it should provide a user-friendly experience that even children to interact with! Here are some user stories that helped create the end design:
+This data dashboard is largely aimed at the general public, and not at statistic offices nor is it intended for official purposes. Instead, it should provide a user-friendly experience that even children can interact with! Here are some user stories that helped create the end design:
+
     1) As an Irish citizen, I would like to see the overall result of this election clearly, so I can better understand the country I'm living in. 
     2) As a person who doesn't deal well with statistics and numbers, I want to see some data that looks friendly, so I can actually read it!
     3) I'm a kid, so I don't like boring lists and numbers. I also want to see how the people of the country I live in vote but I don't want to have to read about it, cause that confuses me!
