@@ -1,4 +1,6 @@
 # REPEAL THE EIGTH DATA DASHBOARD
+Live Demo: https://repeal-data-dashboard.herokuapp.com/
+
 This project is created as part of CI Dublin's course in Software Dev. It is the second project following modues in HTML, CSS, User Centric Frontend Dev, Javascript Fundamentals and Interactive Frontend Dev. 
 
 In this project I create a data dashboard that visualizes a notable referendum Ireland held in May this year to decide whether or not to remove the 8th amendment regarding abortion rights, from the Irish constitution. The result of this election was particularly interesting in terms of how it reflects modern day Ireland, and therefore I felt a set of charts would be worthwhile. 
@@ -60,7 +62,14 @@ Example scenarios of manual testing:
 # other issues when testing
 The bar chart lacks responsivity on small devices. The screen can be rotated or scrolled to view it. However, the design implementation is not ideal for this purpose. 
 
-# DEPLOYMENT
+# Deployment
+To work around deploying a static site, I've included an index.php file that redirects to index.html. This seems to be a standard method of deploying static sites to Heroku. 
+
+This failed numerous times until I realized I had the wrong package installed. From the CLI run after creating heroku app: 
+
+    $ heroku buildpacks:set heroku/php
+
+This way, heroku knows how to handle the php file workaround. 
 
 # CREDITS 
 # acknowledgements
